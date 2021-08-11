@@ -31,7 +31,12 @@ To come:
 Some examples
 
 ```javascript
-   const {f1score} = requir('data-science-js')  
+   const {fOneScoreMacro} = requir('data-science-js')  
+
+   const data = [1, 2, 0, 0, 1]
+   const data = [1, 2, 1, 0 ,1 ]
+
+   const {f1score, recall,precission} = fOneScoreMacro(target, predicted)
 
           
 ```
