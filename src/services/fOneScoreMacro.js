@@ -1,4 +1,4 @@
-import { fromLabels } from 'ml-confusion-matrix'
+import ConfusionMatrix from 'ml-confusion-matrix'
 import { transpose } from 'mathjs'
 import average from './average.js'
 import sumArray from './sumArray.js'
@@ -12,7 +12,7 @@ import computeF1 from '../utils/computeF1.js'
  */
 
 const fOneScoreMacro = (target, predicted) => {
-  const CM2 = fromLabels(target, predicted)
+  const CM2 = ConfusionMatrix.fromLabels(target, predicted)
 
   const CM = CM2.matrix
   const transposeCM = transpose(CM2.matrix)
