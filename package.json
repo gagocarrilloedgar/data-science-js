@@ -1,0 +1,32 @@
+{
+  "name": "data-science",
+  "version": "1.0.0",
+  "description": "JS-based library for data-science, statistic and math project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gagocarrilloedgar/data-science-js.git"
+  },
+  "keywords": [
+    "data-science",
+    "f1score",
+    "maths",
+    "statistic",
+    "mean-square-error",
+    "mse"
+  ],
+  "author": "Edgar Gago Carrillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gagocarrilloedgar/data-science-js/issues"
+  },
+  "homepage": "https://github.com/gagocarrilloedgar/data-science-js#readme",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
+  }
+}
