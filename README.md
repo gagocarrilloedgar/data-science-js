@@ -37,9 +37,15 @@ Some examples
    const data = [1, 2, 1, 0 ,1 ]
 
    const {f1score, recall,precission} = fOneScoreMacro(target, predicted)
-
           
 ```
+
+Currenly avalibale:
+
+- fOneScoreMacro(target [], predicted [])
+- average(arr [])
+- meanSquareError (predicted [], target [])
+- summArray(arr [])
 
 ## Contributing 
 
