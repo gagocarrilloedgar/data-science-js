@@ -1,4 +1,4 @@
-import fOneScoreMacro from '../../src/services/fOneScoreMacro'
+const { fOneScoreMacro } = require('../../src/services/fOneScoreMacro.js')
 
 describe('F1Score macro', () => {
   test('Target and predicted equal should return 1', () => {

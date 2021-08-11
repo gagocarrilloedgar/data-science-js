@@ -1,4 +1,4 @@
-import sumArray from './sumArray.js'
+const { sumArray } = require('./sumArray.js')
 
 /**
  * Computes the arithmetic mean of a given array
@@ -9,4 +9,4 @@ const average = (arr) => {
   return sumArray(arr) / arr.length
 }
 
-export default average
+module.exports = { average }

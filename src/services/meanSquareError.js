@@ -16,4 +16,4 @@ const meanSquareError = (predicted, target) => {
   return mse / n
 }
 
-export default meanSquareError
+module.exports = { meanSquareError }

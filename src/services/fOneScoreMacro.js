@@ -1,8 +1,8 @@
-import ConfusionMatrix from 'ml-confusion-matrix'
-import { transpose } from 'mathjs'
-import average from './average.js'
-import sumArray from './sumArray.js'
-import computeF1 from '../utils/computeF1.js'
+const ConfusionMatrix = require('ml-confusion-matrix')
+const { transpose } = require('mathjs')
+const { average } = require('./average.js')
+const { sumArray } = require('./sumArray.js')
+const { computeF1 } = require('../utils/computeF1.js')
 
 /**
  * Computes the F1Score macro value given the target and predicted arrays
@@ -43,4 +43,4 @@ const fOneScoreMacro = (target, predicted) => {
   }
 }
 
-export default fOneScoreMacro
+module.exports = { fOneScoreMacro }

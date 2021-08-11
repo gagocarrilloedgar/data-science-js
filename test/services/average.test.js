@@ -1,4 +1,4 @@
-import average from '../../src/services/average.js'
+const { average } = require('data-science-js')
 
 describe('Arithmetic average', () => {
   test('Array of 0 should return 0', () => {

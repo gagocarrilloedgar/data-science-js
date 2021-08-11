@@ -1,9 +1,8 @@
 {
   "name": "data-science-js",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "JS-based library for data-science, statistic and math project",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
     "start": "node src/index.js",
     "test": "jest -i --colors --verbose",
@@ -30,8 +29,8 @@
   },
   "homepage": "https://github.com/gagocarrilloedgar/data-science-js#readme",
   "devDependencies": {
-    "@babel/preset-env": "^7.15.0",
     "eslint": "^7.32.0",
+    "data-science-js": "^0.0.4",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-node": "^11.1.0",
@@ -40,13 +39,7 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {
-    "data-science-js": "^0.0.1",
     "mathjs": "^9.4.4",
     "ml-confusion-matrix": "^0.4.0"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.[t|j]sx?$": "babel-jest"
-    }
   }
 }

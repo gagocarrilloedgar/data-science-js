@@ -5,4 +5,4 @@ const computeF1 = (recall, precission) => {
     return recall * precission === 0 ? 0 : (2 * (recall * precission)) / (recall + precission)
   }
 }
-export default computeF1
+module.exports = { computeF1 }

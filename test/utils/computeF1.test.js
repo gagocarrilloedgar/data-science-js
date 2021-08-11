@@ -1,4 +1,4 @@
-import computeF1 from '../../src/utils/computeF1.js'
+const { computeF1 } = require('../../src/utils/computeF1.js')
 
 describe('computeF1', () => {
   test('double 0 inputs should return 0', () => {

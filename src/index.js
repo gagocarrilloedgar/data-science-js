@@ -1,6 +1,6 @@
-import sumArray from './services/sumArray.js'
-import average from './services/average.js'
-import fOneScoreMacro from './services/fOneScoreMacro.js'
-import meanSquareError from './services/meanSquareError.js'
+const { sumArray } = require('./services/sumArray.js')
+const { average } = require('./services/average.js')
+const { fOneScoreMacro } = require('./services/fOneScoreMacro.js')
+const { meanSquareError } = require('./services/meanSquareError.js')
 
-export { sumArray, average, fOneScoreMacro, meanSquareError }
+module.exports = { sumArray, average, fOneScoreMacro, meanSquareError }

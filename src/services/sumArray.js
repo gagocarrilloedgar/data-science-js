@@ -14,4 +14,4 @@ const sumArray = (arr) => {
   return sum
 }
 
-export default sumArray
+module.exports = { sumArray }

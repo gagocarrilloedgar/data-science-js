@@ -1,4 +1,4 @@
-import { sumArray } from 'data-science-js'
+const { sumArray } = require('../../src/services/sumArray.js')
 
 describe('Array sum', () => {
   test('Array of 0 should return 0', () => {
