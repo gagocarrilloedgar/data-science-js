@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "JS-based library for data-science, statistic and math project",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest",
-    "dev": ""
+    "start": "node src/index.js",
+    "test": "jest -i --colors --verbose",
+    "test:watch": "jest -i --watchAll",
+    "coverage": "jest -i --coverage",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,7 +30,22 @@
   },
   "homepage": "https://github.com/gagocarrilloedgar/data-science-js#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
     "jest": "^27.0.6",
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "mathjs": "^9.4.4",
+    "ml-confusion-matrix": "^0.4.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
   }
 }

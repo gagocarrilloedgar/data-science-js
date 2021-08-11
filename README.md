@@ -1,10 +1,8 @@
-## GIT Supercharged | nwe 
+# Data-sience-js
 
-[Spanish version](https://github.com/gagocarrilloedgar/nwe/blob/main/READMEES.md)
 
-CLI (Command Line Interface) based on git but with super powers. The goal is to group and simplify commands to make working with git & github easier and faster.
+JS-based library for data-science, statistic and math projects. Currently supporting
 
-[![CodeFactor](https://www.codefactor.io/repository/github/gagocarrilloedgar/nwe/badge)](https://www.codefactor.io/repository/github/gagocarrilloedgar/nwe) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=gagocarrilloedgar_gitx&metric=alert_status)](https://sonarcloud.io/dashboard?id=gagocarrilloedgar_gitx) ![GitHub followers](https://img.shields.io/github/followers/gagocarrilloedgar?style=social) ![GitHub forks](https://img.shields.io/github/forks/gagocarrilloedgar/gitx?style=social) ![GitHub Repo stars](https://img.shields.io/github/stars/gagocarrilloedgar/gitx?style=social)
 
 ## Install
 
@@ -35,14 +33,12 @@ Some examples
 ```javascript
    const {f1score} = requir('data-science-js')  
 
-     
-      
+          
 ```
-
 
 ## Contributing 
 
-Para contribuir simplemente puedes:
+Simply follow:
 
 1. Clone the repo
 2. Create a branch with the name of the feature you want to add
