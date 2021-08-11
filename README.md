@@ -4,6 +4,8 @@
 JS-based library for data-science, statistic and math projects. Currently supporting
 
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=gagocarrilloedgar_data-science-js&metric=alert_status)](https://sonarcloud.io/dashboard?id=gagocarrilloedgar_data-science-js) [![CodeFactor](https://www.codefactor.io/repository/github/gagocarrilloedgar/data-science-js/badge)](https://www.codefactor.io/repository/github/gagocarrilloedgar/data-science-js)
+
 ## Install
 
 ```shell
