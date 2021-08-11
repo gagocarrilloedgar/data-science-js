@@ -1,3 +1,4 @@
-import computeF1 from './utils/computeF1.js'
-
-computeF1(0, 0)
+export { average } from './services/average.js'
+export { fOneScoreMacro } from './services/fOneScore.js'
+export { meanSquareError } from './services/meanSquareError.js'
+export { sumArray } from './services/sumArray.js'

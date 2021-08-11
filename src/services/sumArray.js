@@ -12,4 +12,4 @@ const sumArray = (arr) => {
   return sum
 }
 
-export default { sumArray }
+export default sumArray

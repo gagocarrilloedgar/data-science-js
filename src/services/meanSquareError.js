@@ -1,3 +1,9 @@
+/**
+ * Computes de MSE of two given arrays of num
+ * @param {Array} predicted
+ * @param {Array} target
+ * @returns {Number}
+ */
 const meanSquareError = (predicted, target) => {
   const n = predicted.length
   let mse = 0

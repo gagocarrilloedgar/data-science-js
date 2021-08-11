@@ -4,7 +4,14 @@ import average from './average.js'
 import sumArray from './sumArray.js'
 import computeF1 from '../utils/computeF1.js'
 
-const fOneScore = (target, predicted) => {
+/**
+ * Computes the F1Score macro value given the target and predicted arrays
+ * @param {[]} target  array of num
+ * @param {[]} predicted  array of num
+ * @returns {Object} containing the f1score, the recall average and the precission average
+ */
+
+const fOneScoreMacro = (target, predicted) => {
   const CM2 = fromLabels(target, predicted)
 
   const CM = CM2.matrix
@@ -36,4 +43,4 @@ const fOneScore = (target, predicted) => {
   }
 }
 
-export default fOneScore
+export default fOneScoreMacro

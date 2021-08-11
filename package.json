@@ -1,5 +1,5 @@
 {
-  "name": "data-science",
+  "name": "data-science-js",
   "version": "1.0.0",
   "description": "JS-based library for data-science, statistic and math project",
   "main": "src/index.js",
